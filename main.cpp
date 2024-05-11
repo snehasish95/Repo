@@ -10,6 +10,8 @@ class Node{
 };
 int add(int a, int b)
 {
+  std::cout << "a = " << a;
+  std::cout << "b = " << b;
 	return (a + b);
 }
 int findLL(Node* head)
